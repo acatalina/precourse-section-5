@@ -1,0 +1,102 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  font-family: inherit;
+}
+
+html {
+  font-size: 1.25em;
+  font-family: 'Indie Flower', cursive;
+  box-sizing: border-box;
+  background: #f7f7f7;
+}
+
+body {
+  margin: 0;
+  min-width: 850px;
+  text-align: center;
+}
+
+button { cursor: pointer; }
+
+a { text-decoration: none; }
+
+.wrapper {
+  padding: auto;
+  display: inline-block;
+}
+
+.score {
+  position: fixed;
+  top: 0;
+  left: 2em;
+  background: #4484ce;
+  padding: .25em 1em;
+  border-bottom-right-radius: 1em;
+  border-bottom-left-radius: 1em;
+  color: white;
+  font-size: 1.25em;
+}
+
+.reload {
+position: fixed;
+bottom: 0;
+left: 2em;
+background: #4484ce;
+padding: .25em 1em;
+border: 0;
+border-top-right-radius: 1em;
+border-top-left-radius: 1em;
+color: white;
+font-size: 1.25em;
+}
+
+.header {
+  padding: 2em;
+  background: inherit;
+}
+
+.header * { margin:  0; }
+
+h1,
+h2 {
+  color: #4484ce;
+}
+
+.instrucciones,
+.instructions {
+  color: #328cc1;
+}
+
+.instructions { font-size: .75em; }
+
+ul { padding-left: 0; }
+
+.questions {
+  text-align: left;
+  list-style-type: none;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.spanish {
+  font-weight: bold;
+}
+
+.questions *:not(:first-child) {
+  border: solid #d9b310;
+  border-radius: 1em;
+  margin: 1em;
+  color: #f7f7f7;
+  background: #4484ce;
+  padding: .5em;
+  cursor: pointer;
+}
+
+.footer { margin-top: 2em; }
+
+.created { font-size: .75em; }
+
+@media only screen and (max-width: 960px) {
+}
