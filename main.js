@@ -9,7 +9,7 @@ $(document).ready(function() {
   });
 
   $('.right').click(function() {
-    $(this).css('background', '#0ace00').css('cursor', 'default');
+    $(this).css('background', '#0ace00').unbind().css('cursor', 'default');
     $(this).siblings().unbind().css('cursor', 'default');
     score++
     $('.score').html('Score: ' + score)
